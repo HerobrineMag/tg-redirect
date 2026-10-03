@@ -1,6 +1,6 @@
 # TG Desktop Redirect
 
-Расширение для Chrome (Manifest V3), которое превращает ссылки `t.me`, `telegram.me` и `telegram.dog` в `tg://` и передаёт их десктопному Telegram.
+Расширение для Chrome , которое превращает ссылки `t.me`, `telegram.me` и `telegram.dog` в `tg://` и передаёт их десктопному Telegram.
 
 Это не прокси и не VPN. Расширение только передаёт ссылку приложению. Подключение к сети остаётся на стороне Telegram Desktop.
 
