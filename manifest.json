@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "TG Desktop Redirect",
+  "version": "1.2",
+  "description": "Открывает ссылки t.me / telegram.me в десктопном Telegram",
+  "permissions": ["webNavigation", "webRequest"],
+  "host_permissions": [
+    "*://t.me/*",
+    "*://www.t.me/*",
+    "*://telegram.me/*",
+    "*://www.telegram.me/*",
+    "*://telegram.dog/*"
+  ],
+  "background": { "service_worker": "background.js" }
+}

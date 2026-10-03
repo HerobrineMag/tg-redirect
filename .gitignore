@@ -1,0 +1,9 @@
+config.js
+.dev.vars
+.env
+*.pem
+*.key
+.wrangler/
+node_modules/
+.DS_Store
+Thumbs.db
